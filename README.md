@@ -1,1 +1,1 @@
-# Rock-Paper-Scissor
+in this game you are playing rock paper scissor game with a computer now her we are assigning 0 for rock, 1 for paper and 2 for sscissor and here in this game computer generates a random number in range 0 to 2 both inclusive and you are gonna input any of 0,1 and 2 now both the numbers are compared and the required result is given.
