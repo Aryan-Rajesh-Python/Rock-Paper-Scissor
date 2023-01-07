@@ -1,0 +1,25 @@
+import random
+k=int(input("Enter the number of games you want to play: "))
+for i in range(1,k+1):
+    a=int(input("Enter a number for rock or paper or scissor: "))
+    b=random.randint(0,2)
+    if(a==0 and b==0):
+        print("Draw")
+    elif(a==0 and b==1):
+        print("Computer Won")
+    elif(a==0 and b==2):
+        print("You won")
+    elif(a==1 and b==0):
+        print("You won")
+    elif(a==1 and b==1):
+        print("Draw")
+    elif(a==1 and b==2):
+        print("Computer won")
+    elif(a==2 and b==0):
+        print("Computer won")
+    elif(a==2 and a==1):
+        print("You won")
+    elif(a==2 and b==2):
+        print("Draw")
+    elif(a<0 and a>2):
+        print("Please give the correct input!")
