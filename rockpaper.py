@@ -1,6 +1,5 @@
 import random
-k=int(input("Enter the number of games you want to play: "))
-for i in range(1,k+1):
+def game():
     a=int(input("Enter a number for rock or paper or scissor: "))
     b=random.randint(0,2)
     if(a==0 and b==0):
@@ -23,3 +22,12 @@ for i in range(1,k+1):
         print("Draw")
     elif(a<0 and a>2):
         print("Please give the correct input!")
+game()
+while(True):
+    opinion=input("Do you want to play the game or you want to exit the game: ")
+    if(opinion=="yes" or opinion=="Yes" or opinion=="YES"):
+        game()
+    else:
+        print("Thank you for playing our game!!")
+        break
+        
