@@ -1,4 +1,7 @@
 import random
+import pyfiglet
+app=pyfiglet.figlet_format("Rock Paper Scissor")
+print(app)
 def game():
     a=int(input("Enter a number for rock or paper or scissor: "))
     b=random.randint(0,2)
