@@ -6,9 +6,9 @@ This is an enhanced version of the classic Rock Paper Scissors game, including a
 
 - **Choices**: Rock, Paper, Scissors, Lizard, and Spock.
 - **Difficulty Levels**: Choose from three difficulty settings:
-  - **Easy**: Random choices by the computer.
-  - **Medium**: The computer makes random choices.
-  - **Hard**: Advanced computer behavior (could be enhanced with specific patterns).
+  - **Easy:** The computer makes random choices with no strategy.
+  - **Medium:** The computer occasionally makes strategic choices based on previous rounds.
+  - **Hard:** The computer analyzes patterns in your choices and tries to predict and counter your next move.
 - **Round Results**: Displays the outcome of each round, along with your and the computer's choices.
 - **Final Score**: Displays the total score after all rounds.
 - **Round-by-Round Table**: A table summarizing each round's results.
