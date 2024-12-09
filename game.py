@@ -1,10 +1,10 @@
 import random
-#import pyfiglet
+import pyfiglet
 from tabulate import tabulate
 
 # Display the title of the game
-#app = pyfiglet.figlet_format("Rock Paper Scissors Lizard Spock")
-#print(app)
+app = pyfiglet.figlet_format("Rock Paper Scissors Lizard Spock")
+print(app)
 
 # Choices for the game (with added Lizard and Spock)
 choices = ["Rock", "Paper", "Scissors", "Lizard", "Spock"]
